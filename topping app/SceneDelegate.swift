@@ -18,6 +18,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
     }
+    
+    func changeRootViewControllerIfPossible(_ newRootViewController: UIViewController) {
+        guard let window = window else { return }
+        window.rootViewController = newRootViewController
+        window.makeKeyAndVisible()
+        // Add transition animation
+        let options: UIView.AnimationOptions = .transitionCrossDissolve
+        UIWindow.transition(with: window, duration: 0.3, options: options, animations: {}, completion: nil)
+    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
@@ -50,3 +59,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+extension SceneDelegate {
+    static var currentDelegate: SceneDelegate? {
+        if let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate {
+            return sceneDelegate
+        } else {
+            return nil
+        }
+    }
+    
+    static var mainStoryboard: UIStoryboard? {
+        currentDelegate?.window?.rootViewController?.storyboard
+    }
+}

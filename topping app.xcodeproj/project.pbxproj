@@ -9,39 +9,59 @@
 /* Begin PBXBuildFile section */
 		C926F39A2C13C057000F921C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926F3992C13C057000F921C /* AppDelegate.swift */; };
 		C926F39C2C13C057000F921C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926F39B2C13C057000F921C /* SceneDelegate.swift */; };
-		C926F39E2C13C057000F921C /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926F39D2C13C057000F921C /* loginViewController.swift */; };
 		C926F3A12C13C057000F921C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C926F3A02C13C057000F921C /* Base */; };
 		C926F3A32C13C058000F921C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C926F3A22C13C058000F921C /* Assets.xcassets */; };
 		C926F3A62C13C058000F921C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C926F3A52C13C058000F921C /* Base */; };
-		C926F3AE2C13C6C9000F921C /* home informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C926F3AD2C13C6C9000F921C /* home informationViewController.swift */; };
-		C941E2472C92712000E48530 /* orderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C941E2462C92712000E48530 /* orderViewController.swift */; };
-		C97FFD192C97B7B200E2AA3A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFD182C97B7B200E2AA3A /* SignUpViewController.swift */; };
-		C99C97052C9264DD00C4BB56 /* orderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99C97042C9264DD00C4BB56 /* orderView.xib */; };
-		C99C97072C9264FC00C4BB56 /* order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C97062C9264FC00C4BB56 /* order.swift */; };
-		C9BC729C2C98B1E100F8FC27 /* Orderview2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BC729B2C98B1E100F8FC27 /* Orderview2View.xib */; };
-		C9BC729E2C98B23100F8FC27 /* Orderview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BC729D2C98B23100F8FC27 /* Orderview2.swift */; };
-		C9BC72A02C98B66200F8FC27 /* Orderview3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BC729F2C98B66200F8FC27 /* Orderview3.swift */; };
-		C9BC72A22C98B68A00F8FC27 /* orderview3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BC72A12C98B68A00F8FC27 /* orderview3View.xib */; };
+		C9DD3B3A2CD6BB5300703DF2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C9DD3B392CD6BB5300703DF2 /* GoogleSignIn */; };
+		C9DD3B3C2CD6BB5300703DF2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C9DD3B3B2CD6BB5300703DF2 /* GoogleSignInSwift */; };
+		F5003BD42D0DEE0800AEC045 /* ReceiptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BD32D0DEE0800AEC045 /* ReceiptModel.swift */; };
+		F5003BD62D0DEF2300AEC045 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5003BD52D0DEF2300AEC045 /* Order.storyboard */; };
+		F5003BE72D0E12BB00AEC045 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BDE2D0E12BB00AEC045 /* AuthViewController.swift */; };
+		F5003BE82D0E12BB00AEC045 /* BaseOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BDF2D0E12BB00AEC045 /* BaseOrderViewController.swift */; };
+		F5003BE92D0E12BB00AEC045 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BE02D0E12BB00AEC045 /* HomeViewController.swift */; };
+		F5003BEA2D0E12BB00AEC045 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BE12D0E12BB00AEC045 /* LoginViewController.swift */; };
+		F5003BEB2D0E12BB00AEC045 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BE22D0E12BB00AEC045 /* OrderViewController.swift */; };
+		F5003BEC2D0E12BB00AEC045 /* ShipFromDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BE32D0E12BB00AEC045 /* ShipFromDetailsViewController.swift */; };
+		F5003BED2D0E12BB00AEC045 /* ShipToDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BE42D0E12BB00AEC045 /* ShipToDetailsViewController.swift */; };
+		F5003BEE2D0E12BB00AEC045 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5003BE52D0E12BB00AEC045 /* SignUpViewController.swift */; };
+		F51E23782D10D682001FB8CC /* AppDBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F51E23732D10D682001FB8CC /* AppDBModel.xcdatamodeld */; };
+		F51E23792D10D682001FB8CC /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51E23742D10D682001FB8CC /* DBManager.swift */; };
+		F54AB4AD2D1222F2004E0206 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AB4AC2D1222F2004E0206 /* ProfileViewController.swift */; };
+		F54AB4AF2D1228D1004E0206 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AB4AE2D1228D1004E0206 /* SplashViewController.swift */; };
+		F5C06BCB2D0E297300F100D1 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C06BCA2D0E297300F100D1 /* UserManager.swift */; };
+		F5C06BCD2D0E2A1C00F100D1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C06BCC2D0E2A1C00F100D1 /* UserModel.swift */; };
+		F5C06BCF2D0E2B0F00F100D1 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C06BCE2D0E2B0F00F100D1 /* ReceiptViewController.swift */; };
+		F5C06BD22D0E335700F100D1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F5C06BD12D0E335700F100D1 /* Lottie */; };
+		F5C06BD62D0E3C1100F100D1 /* Success.lottie in Resources */ = {isa = PBXBuildFile; fileRef = F5C06BD52D0E3C1100F100D1 /* Success.lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C926F3962C13C057000F921C /* topping app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "topping app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C926F3992C13C057000F921C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C926F39B2C13C057000F921C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C926F39D2C13C057000F921C /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		C926F3A02C13C057000F921C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C926F3A22C13C058000F921C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C926F3A52C13C058000F921C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C926F3A72C13C058000F921C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C926F3AD2C13C6C9000F921C /* home informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home informationViewController.swift"; sourceTree = "<group>"; };
-		C941E2462C92712000E48530 /* orderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderViewController.swift; sourceTree = "<group>"; };
-		C97FFD182C97B7B200E2AA3A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		C99C97042C9264DD00C4BB56 /* orderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = orderView.xib; sourceTree = "<group>"; };
-		C99C97062C9264FC00C4BB56 /* order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = order.swift; sourceTree = "<group>"; };
-		C9BC729B2C98B1E100F8FC27 /* Orderview2View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Orderview2View.xib; sourceTree = "<group>"; };
-		C9BC729D2C98B23100F8FC27 /* Orderview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orderview2.swift; sourceTree = "<group>"; };
-		C9BC729F2C98B66200F8FC27 /* Orderview3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orderview3.swift; sourceTree = "<group>"; };
-		C9BC72A12C98B68A00F8FC27 /* orderview3View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = orderview3View.xib; sourceTree = "<group>"; };
+		F5003BD32D0DEE0800AEC045 /* ReceiptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptModel.swift; sourceTree = "<group>"; };
+		F5003BD52D0DEF2300AEC045 /* Order.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
+		F5003BDE2D0E12BB00AEC045 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		F5003BDF2D0E12BB00AEC045 /* BaseOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOrderViewController.swift; sourceTree = "<group>"; };
+		F5003BE02D0E12BB00AEC045 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F5003BE12D0E12BB00AEC045 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F5003BE22D0E12BB00AEC045 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		F5003BE32D0E12BB00AEC045 /* ShipFromDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipFromDetailsViewController.swift; sourceTree = "<group>"; };
+		F5003BE42D0E12BB00AEC045 /* ShipToDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipToDetailsViewController.swift; sourceTree = "<group>"; };
+		F5003BE52D0E12BB00AEC045 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F51E23742D10D682001FB8CC /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		F51E23772D10D682001FB8CC /* AppDBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDBModel.xcdatamodel; sourceTree = "<group>"; };
+		F54AB4982D1217AF004E0206 /* AppDBModel_V1.0.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppDBModel_V1.0.1.xcdatamodel; sourceTree = "<group>"; };
+		F54AB4AC2D1222F2004E0206 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F54AB4AE2D1228D1004E0206 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F5C06BCA2D0E297300F100D1 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		F5C06BCC2D0E2A1C00F100D1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F5C06BCE2D0E2B0F00F100D1 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		F5C06BD52D0E3C1100F100D1 /* Success.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = Success.lottie; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DD3B3A2CD6BB5300703DF2 /* GoogleSignIn in Frameworks */,
+				C9DD3B3C2CD6BB5300703DF2 /* GoogleSignInSwift in Frameworks */,
+				F5C06BD22D0E335700F100D1 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,22 +99,62 @@
 			children = (
 				C926F3992C13C057000F921C /* AppDelegate.swift */,
 				C926F39B2C13C057000F921C /* SceneDelegate.swift */,
-				C926F39D2C13C057000F921C /* loginViewController.swift */,
-				C926F39F2C13C057000F921C /* Main.storyboard */,
-				C941E2462C92712000E48530 /* orderViewController.swift */,
-				C97FFD182C97B7B200E2AA3A /* SignUpViewController.swift */,
-				C99C97042C9264DD00C4BB56 /* orderView.xib */,
-				C9BC729D2C98B23100F8FC27 /* Orderview2.swift */,
-				C9BC729B2C98B1E100F8FC27 /* Orderview2View.xib */,
-				C9BC729F2C98B66200F8FC27 /* Orderview3.swift */,
-				C9BC72A12C98B68A00F8FC27 /* orderview3View.xib */,
-				C99C97062C9264FC00C4BB56 /* order.swift */,
-				C926F3AD2C13C6C9000F921C /* home informationViewController.swift */,
+				F5C06BCA2D0E297300F100D1 /* UserManager.swift */,
+				F51E23762D10D682001FB8CC /* DB */,
+				F5003BE62D0E12BB00AEC045 /* Controllers */,
+				F5003BF02D0E12CB00AEC045 /* Storyboards */,
+				F5003BEF2D0E12C500AEC045 /* Model */,
 				C926F3A22C13C058000F921C /* Assets.xcassets */,
+				F5C06BD52D0E3C1100F100D1 /* Success.lottie */,
 				C926F3A42C13C058000F921C /* LaunchScreen.storyboard */,
 				C926F3A72C13C058000F921C /* Info.plist */,
 			);
 			path = "topping app";
+			sourceTree = "<group>";
+		};
+		F5003BE62D0E12BB00AEC045 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5003BDE2D0E12BB00AEC045 /* AuthViewController.swift */,
+				F5003BDF2D0E12BB00AEC045 /* BaseOrderViewController.swift */,
+				F54AB4AC2D1222F2004E0206 /* ProfileViewController.swift */,
+				F5003BE02D0E12BB00AEC045 /* HomeViewController.swift */,
+				F5003BE12D0E12BB00AEC045 /* LoginViewController.swift */,
+				F54AB4AE2D1228D1004E0206 /* SplashViewController.swift */,
+				F5003BE22D0E12BB00AEC045 /* OrderViewController.swift */,
+				F5003BE32D0E12BB00AEC045 /* ShipFromDetailsViewController.swift */,
+				F5003BE42D0E12BB00AEC045 /* ShipToDetailsViewController.swift */,
+				F5003BE52D0E12BB00AEC045 /* SignUpViewController.swift */,
+				F5C06BCE2D0E2B0F00F100D1 /* ReceiptViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5003BEF2D0E12C500AEC045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5003BD32D0DEE0800AEC045 /* ReceiptModel.swift */,
+				F5C06BCC2D0E2A1C00F100D1 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5003BF02D0E12CB00AEC045 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C926F39F2C13C057000F921C /* Main.storyboard */,
+				F5003BD52D0DEF2300AEC045 /* Order.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F51E23762D10D682001FB8CC /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				F51E23732D10D682001FB8CC /* AppDBModel.xcdatamodeld */,
+				F51E23742D10D682001FB8CC /* DBManager.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +201,10 @@
 				Base,
 			);
 			mainGroup = C926F38D2C13C057000F921C;
+			packageReferences = (
+				C9DD3B382CD6BB5300703DF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				F5C06BD02D0E335700F100D1 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = C926F3972C13C057000F921C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,11 +219,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C06BD62D0E3C1100F100D1 /* Success.lottie in Resources */,
 				C926F3A32C13C058000F921C /* Assets.xcassets in Resources */,
-				C99C97052C9264DD00C4BB56 /* orderView.xib in Resources */,
-				C9BC72A22C98B68A00F8FC27 /* orderview3View.xib in Resources */,
 				C926F3A62C13C058000F921C /* Base in Resources */,
-				C9BC729C2C98B1E100F8FC27 /* Orderview2View.xib in Resources */,
+				F5003BD62D0DEF2300AEC045 /* Order.storyboard in Resources */,
 				C926F3A12C13C057000F921C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,15 +234,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C926F39E2C13C057000F921C /* loginViewController.swift in Sources */,
-				C97FFD192C97B7B200E2AA3A /* SignUpViewController.swift in Sources */,
 				C926F39A2C13C057000F921C /* AppDelegate.swift in Sources */,
-				C99C97072C9264FC00C4BB56 /* order.swift in Sources */,
-				C9BC729E2C98B23100F8FC27 /* Orderview2.swift in Sources */,
-				C941E2472C92712000E48530 /* orderViewController.swift in Sources */,
-				C9BC72A02C98B66200F8FC27 /* Orderview3.swift in Sources */,
+				F5003BE72D0E12BB00AEC045 /* AuthViewController.swift in Sources */,
+				F5003BE82D0E12BB00AEC045 /* BaseOrderViewController.swift in Sources */,
+				F54AB4AF2D1228D1004E0206 /* SplashViewController.swift in Sources */,
+				F51E23782D10D682001FB8CC /* AppDBModel.xcdatamodeld in Sources */,
+				F51E23792D10D682001FB8CC /* DBManager.swift in Sources */,
+				F5003BE92D0E12BB00AEC045 /* HomeViewController.swift in Sources */,
+				F5003BEA2D0E12BB00AEC045 /* LoginViewController.swift in Sources */,
+				F54AB4AD2D1222F2004E0206 /* ProfileViewController.swift in Sources */,
+				F5C06BCD2D0E2A1C00F100D1 /* UserModel.swift in Sources */,
+				F5003BEB2D0E12BB00AEC045 /* OrderViewController.swift in Sources */,
+				F5C06BCB2D0E297300F100D1 /* UserManager.swift in Sources */,
+				F5003BEC2D0E12BB00AEC045 /* ShipFromDetailsViewController.swift in Sources */,
+				F5003BED2D0E12BB00AEC045 /* ShipToDetailsViewController.swift in Sources */,
+				F5003BEE2D0E12BB00AEC045 /* SignUpViewController.swift in Sources */,
+				F5C06BCF2D0E2B0F00F100D1 /* ReceiptViewController.swift in Sources */,
+				F5003BD42D0DEE0800AEC045 /* ReceiptModel.swift in Sources */,
 				C926F39C2C13C057000F921C /* SceneDelegate.swift in Sources */,
-				C926F3AE2C13C6C9000F921C /* home informationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +474,57 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9DD3B382CD6BB5300703DF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		F5C06BD02D0E335700F100D1 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9DD3B392CD6BB5300703DF2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9DD3B382CD6BB5300703DF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C9DD3B3B2CD6BB5300703DF2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9DD3B382CD6BB5300703DF2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		F5C06BD12D0E335700F100D1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5C06BD02D0E335700F100D1 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F51E23732D10D682001FB8CC /* AppDBModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F54AB4982D1217AF004E0206 /* AppDBModel_V1.0.1.xcdatamodel */,
+				F51E23772D10D682001FB8CC /* AppDBModel.xcdatamodel */,
+			);
+			currentVersion = F54AB4982D1217AF004E0206 /* AppDBModel_V1.0.1.xcdatamodel */;
+			path = AppDBModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C926F38E2C13C057000F921C /* Project object */;
 }
